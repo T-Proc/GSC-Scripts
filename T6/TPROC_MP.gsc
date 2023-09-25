@@ -21,7 +21,7 @@ onplayerspawned()
 {
 	level endon( "game_ended" );
     self endon( "disconnect" );
-	
+	//Share the discord
 	for(;;)
 	{
 		self waittill( "spawned_player" );
