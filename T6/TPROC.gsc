@@ -11,7 +11,7 @@ init()
     level thread onPlayerConnect();
     thread remove_perk_limit();
 }
-
+//Remove Perk Limit
 remove_perk_limit()
 {
     level waittill( "start_of_round" );
@@ -38,7 +38,7 @@ onplayerspawned()
         self waittill("spawned_player");
     }
 }
-
+//Share the discord
 tprocDiscord()
 {
 	self endon("disconnect");
